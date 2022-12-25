@@ -40,7 +40,9 @@ export default class BlogList extends Component {
     return (
       <>
         {isLoading ? (
-          <Loader type="TailSpin" height={50} width={50} color="#00BFFF" />
+          <div>
+            <Loader type="TailSpin" height={50} width={50} color="#00BFFF" />
+          </div>
         ) : (
           blogItems.map(eachItem => (
             <BlogItem key={eachItem.id} eachItem={eachItem} />

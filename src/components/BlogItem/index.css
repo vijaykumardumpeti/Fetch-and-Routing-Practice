@@ -2,20 +2,23 @@
 .blog-item-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   padding: 10px;
   border: 1px solid #8e8e8e;
   border-radius: 10px;
   margin: 10px;
-  width: 1200px;
+  width: 1100px;
 }
 .details-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 600px;
+
+  font-family: 'roboto';
 }
 .profile-container {
   display: flex;
@@ -25,8 +28,23 @@
 }
 .first-image-url {
   height: 200px;
-  width: 600px;
+  width: 500px;
+  margin-right: 10px;
 }
 .profile-image {
   height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.title {
+  font-size: 22px;
+}
+.author {
+  color: #8e8e8e;
+  font-weight: bold;
+}
+.topic {
+  color: #8e8e8e;
+  font-weight: bold;
 }

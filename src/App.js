@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 import UserInfo from './components/UserInfo'
+import BlogItemDetails from './components/BlogItemDetails'
 
 import './App.css'
 
@@ -19,6 +20,7 @@ const App = () => (
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/blogs/:id" component={BlogItemDetails} />
           <Route component={NotFound} />
         </Switch>
       </div>

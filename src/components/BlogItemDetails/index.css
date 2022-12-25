@@ -1,1 +1,30 @@
 /* Write your CSS code here */
+.blog-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-and-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.image-and-profile-container {
+  width: 1000px;
+}
+.big-image {
+  width: 1000px;
+}
+.avatar-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.content-para {
+  text-align: start;
+  width: 1000px;
+}
